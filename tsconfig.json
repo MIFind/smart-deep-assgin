@@ -1,0 +1,22 @@
+  {
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "stripInternal": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "typeRoots": ["./node_modules/@types/", "./@types/"],
+	"target": "ES2018",
+    "module": "commonjs"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["lib", "es", "node_modules", "types", "**/*.test.ts", "__snapshots__", "__fixtures__"]
+}

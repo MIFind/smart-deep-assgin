@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+.idea
+.husky/_
+# npm
+node_modules
+dist
+*.zip
+
+lib
+es
+
+.history/*
